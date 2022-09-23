@@ -1,8 +1,17 @@
-function check_prime(){
+function check_prime(num){
     if(num<=1){
    return false
       };
 for(let i=2;i<=num**1/2;i++){
 if(num%i==0){
+   return false
+}
+
+}return true
 
 }
+
+let ans=check_prime(num)
+console.log(ans)
+
+
